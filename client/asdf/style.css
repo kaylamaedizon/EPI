@@ -1,0 +1,7 @@
+@font-face{
+ font-family:'MohaveBold';
+ src: url(fonts/Mohave-Bold.otf);
+}
+body{
+ font-family: "MohaveBold";
+}
