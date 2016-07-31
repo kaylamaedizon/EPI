@@ -1,0 +1,13 @@
+{
+	"hello": "I'm private",
+	"public": {
+		"ga": {
+			"account": "UA-XXXXXXX-X"
+		}
+	},
+	"private": {
+		"stripe": {
+			"hey": "grrrrrrr"
+		}
+	}
+}

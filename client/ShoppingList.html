@@ -1,0 +1,12 @@
+<template name="ShoppingList">
+	<h1 class="page-title">Ongoing Projects</h1>
+	<ul class="shopping-list">
+		{{#each shoppingList}}
+			{{#each workers}}
+				<li>{{name}} - <span class="amount">{{skill}}</span></li>
+			{{/each}}
+		{{else}}
+			<li>No current awarded <a href="/project-list">projects</a>.</li>
+		{{/each}}
+	</ul>
+</template>
