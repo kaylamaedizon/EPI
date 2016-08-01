@@ -40,7 +40,7 @@ ProjectSchema = new SimpleSchema({
 		label: "Work Order"
 	},
 	Date: {
-		type: String,
+		type: Date,
 		label: "Date"
 	},
 	ContactNum: {
@@ -48,7 +48,7 @@ ProjectSchema = new SimpleSchema({
 		label: "Contact Number"
 	},
 	DueDate: {
-		type: String,
+		type: Date,
 		label: "Due Date"
 	},
 	System: {
