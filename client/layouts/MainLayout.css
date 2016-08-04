@@ -1,0 +1,13 @@
+.container{
+  margin-top: 5%;
+  position: relative;
+}
+.sidenav{
+  height:100%;
+  width: 20%;
+  position:left;
+  position:fixed;
+}
+.header{
+  font-size: 20%;
+}

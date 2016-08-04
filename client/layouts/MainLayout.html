@@ -1,7 +1,10 @@
 <template name="MainLayout">
-	{{> Header}}
-	{{> SideNav}}
-	<div class="container">
-		{{> Template.dynamic template=main}}
+	<head><link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"></head>
+	<div>
+		<div class="header">{{> Header}}</div>
+		<div class="sidenav">{{> SideNav}}</div>
+		<div class="container">
+			{{> Template.dynamic template=main}}
+		</div>
 	</div>
 </template>
