@@ -1,0 +1,34 @@
+<template name="HomeLayout">
+	<head><link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"></head>
+	{{> Header}}
+	<main>
+		<div id="login" class="container center">
+				<form class="col s6">
+	      	<div class="row">
+						<div class="input-field col s6">
+		          <i class="material-icons prefix">account_circle</i>
+		          <input id="email" type="text" class="validate" name="loginEmail" required>
+		          <label for="email">Email</label>
+		      	</div>
+	      	</div>
+
+	        <div class="row">
+						<div class="input-field col s6">
+		          <i class="material-icons prefix">vpn_key</i>
+		          <input id="password" type="password" class="validate" name="loginPassword" required>
+		          <label for="password">Password</label>
+		        </div>
+	        </div>
+
+	        <div class="row">
+						<div class="col s6">
+							<button class="btn waves-effect waves-light blue darken-3 right" type="submit" name="action" id="logIn">Login
+			          <i class="material-icons right">arrow_forward</i>
+			        </button>
+						</div>
+	        </div>
+
+	    </form>
+		</div>
+	</main>
+</template>

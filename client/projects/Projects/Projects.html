@@ -2,7 +2,7 @@
 	{{#if $.Session.get 'newProject'}}
 		{{> NewProject}}
 	{{else}}
-		<a class="new-project btn blue"><i class="material-icons left">add</i>New Project</a>
+		<a class="new-project btn blue" data-target="#new-project"><i class="material-icons left">add</i>New Project</a>
 	{{/if}}
 	<section class="projects">
 		{{#if Template.subscriptionsReady}}
