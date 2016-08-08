@@ -12,7 +12,7 @@ Template.Projects.helpers({
 });
 
 Template.Projects.events({
-	'click .new-project' : () => {
-		Session.set('newProject', true);
+	'click .new-project-trigger' : function(event) {
+		$('#new-project').openModal();
 	}
 });

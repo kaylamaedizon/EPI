@@ -2,7 +2,17 @@
 	{{#if $.Session.get 'newProject'}}
 		{{> NewProject}}
 	{{else}}
-		<a class="new-project btn blue" data-target="#new-project"><i class="material-icons left">add</i>New Project</a>
+		<a class="btn blue modal-trigger new-project-trigger" data-target="#new-project"><i class="material-icons left">add</i>New Project</a>
+
+		<div id="new-project" class="modal modal-fixed-footer">
+			<div class="modal-content">
+				<h4 class="center">New Project</h4>
+				{{> quickForm collection="Projects" id="insertProjectForm" type="insert" class="new-project-form"}}
+			</div>
+			<div class="modal-footer">
+				<a href="#!" class="modal-close btn-flat">Close</a>
+			</div>
+		</div>
 	{{/if}}
 	<section class="projects">
 		{{#if Template.subscriptionsReady}}
