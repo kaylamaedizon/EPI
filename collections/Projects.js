@@ -78,6 +78,27 @@ ProjectSchema = new SimpleSchema({
 			type: "hidden"
 		}
 	},
+	PSFNumber: {
+		type: String,
+		optional: true,
+		autoform: {
+			type: "hidden"
+		}
+	},
+	JONumber: {
+		type: String,
+		optional: true,
+		autoform: {
+			type: "hidden"
+		}
+	},
+	PurchasingInCharge: {
+		type: String,
+		optional: true,
+		autoform: {
+			type: "hidden"
+		}
+	},
 	author: {
 		type: String,
 		label: "Author",

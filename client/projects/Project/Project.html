@@ -1,6 +1,6 @@
 <template name="Project">
 	<article class="project {{#if awarded}}in-menu{{/if}}">
-		<h3>{{name}}</h3>
+		<h3>{{CompanyName}}</h3>
 		{{#if editMode }}
 			{{> quickForm collection="Projects" id=updateProjectId type="update" doc=this autosave=true}}
 		{{else}}
@@ -10,7 +10,7 @@
 					<span class="worker">{{name}} - {{skill}}</span>
 				{{/each}}
 			</p>
-			<a href="/project/{{_id}}">View Details</a>
+			<a href="/project/{{_id}}">PROCEED TO CANVASSING</a>
 			{{#if awarded}}
 				<button class="btn-deny toggle-menu">Remove From Awarded Projects</button>
 			{{else}}

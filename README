@@ -1,6 +1,19 @@
 Things to do:
 	- custom login
-	- prompt for deletion
-	- change to existing UI
+		- users database
+		- prompt for incorrect account credentials
 	- AWARDED module
 	- complete forms
+		- sales information form - done
+		- purchasing sheet form - done
+		- disbursement voucher
+		- job order form
+		- project endorsement form
+		- service invoice
+		- sales invoice
+		- delivery receipt
+		- request for payment form
+		- cash payment request form
+		- reimbursement form
+		- request for cash advance
+		- cash advance liquidation form

@@ -1,3 +1,24 @@
 <template name="ProjectSingle">
-	<h1>{{project.name}}</h1>
+	<h3>Date: {{project.Date}}</h3>
+	<h1>Company: {{project.CompanyName}}</h1>
+	<h3>Department: </h3>
+	<h3>Due Date: {{project.DueDate}}</h3>
+	<h3>Work Order No.: {{project.WorkOrder}}</h3>
+	<h3>PSF No.: {{project.PSFNumber}}</h3>
+	<h3>Job Order No.: {{project.JONumber}}</h3>
+	<h3>Purchasing In Charge: {{project.PurchasingInCharge}}</h3>
+
+	<h1>FILL HERE ITEMS THAT ARE AVAILABLE FOR CANVASSING</h1><br><br>
+
+	Additional details:<br>
+	Delivery/Freight Terms<br>
+	Terms of Payment<br>
+	Duties and Taxes<br><br>
+
+	Requestor/Enduser Evaluation (Please indicate below your recommendations and justifications.)<br>
+	After evaluating all of the above, please make supplier recommendation below. If the decision is based on anything other than the price, please describe the reasoning and value for the selection.<br><br>
+
+	Recommendation: <input type="text" name="recomendation">
+	Justification: <input type="text" name="justification">
+	
 </template>
